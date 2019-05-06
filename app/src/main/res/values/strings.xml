@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">مرحبا</string>
+
+    <string name="splash_check_internet_conectivity">يرجى التأكد من الاتصال بالانترنت</string>
+    <string name="splash_ok">حسنا</string>
+
+    <!-- Login Page -->
+    <string name="login_submit_button">الدخول</string>
+    <string name="login_phone_hint">رقم الهاتف</string>
+    <string name="login_join">لست عضوا في مرحبا؟ اتصل بنا!</string>
+    <string name="login_about">Marhaba v1.2 | Entezaar</string>
+    <string name="login_error_invalid">رقم الهاتف غير صحيح</string>
+    <string name="login_error_empty_field">ادخل رقم هاتفك</string>
+    <string name="login_logging_in">يتم التحميل للدخول</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="taxi_request_button">التجول</string>
+    <string name="hotel_request_button">حجز فندق</string>
+    <string name="support_button">الاتصال بمركز الاتصالات</string>
+
+    <!-- TAXI REQUEST & HOTEL REQUEST ACTIVITY -->
+    <string name="letsgo">لنذهب !</string>
+    <string name="reserve">حجز فندق</string>
+    <string name="please_wait">انتظر رجاءً</string>
+    <string name="done">تم</string>
+    <string name="error">حاول مرة أخرى رجاءً</string>
+    <string name="error_num1">حصلت مشكلة في تحديد الموقع، يرجى حل المشكلة عبر تغيير اعدادات الهاتف</string>
+    <string name="operator_phone_number">+989335551097</string>
+
+</resources>

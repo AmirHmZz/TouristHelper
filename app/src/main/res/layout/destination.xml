@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d_card_height"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/d_card"
+        style="@style/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="@dimen/d_card_margin"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/d_image"
+                android:src="@drawable/loading_image"
+                android:layout_width="@dimen/d_imagesize"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_alignParentStart="true" />
+
+            <com.entezaar.thelperdemo.ui.irsansTextView
+                android:id="@+id/d_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/d_image"
+                android:textColor="@color/d_title_color"
+                android:textSize="@dimen/d_name_size"
+                android:layout_margin="@dimen/d_items_margin"
+                app:FontType="bold"/>
+
+
+            <com.entezaar.thelperdemo.ui.irsansTextView
+                android:id="@+id/d_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/d_image"
+                android:layout_below="@id/d_name"
+                android:textColor="@color/d_desc_color"
+                android:textSize="@dimen/d_desc_size"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:layout_marginBottom="@dimen/d_items_margin"
+                android:layout_marginStart="@dimen/d_items_margin"
+                android:layout_marginEnd="@dimen/d_items_margin"
+                app:FontType="light"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

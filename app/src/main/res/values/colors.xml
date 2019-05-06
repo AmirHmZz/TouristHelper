@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="colorPrimaryText">#292929</color>
+    <color name="colorSecondaryText">#747474</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="focus_less">#6C6B66</color>
+
+    <color name="toolbar_items_color">#ffffff</color>
+    <color name="main_activity_labels_color">#e6e6e6</color>
+
+    <!-- Destinations -->
+    <color name="d_title_color">#000000</color>
+    <color name="d_desc_color">#000000</color>
+    <color name="d_loading_color">#7b7b7b</color>
+    <color name="d_card_back">#FFF</color>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="d_title_text_size">20sp</dimen>
+    <dimen name="d_primary_text_size">14sp</dimen>
+    <dimen name="d_secondary_text_size">12sp</dimen>
+
+    <!-- LOGN PAGE -->
+    <dimen name="d_logo_size">150dp</dimen>
+
+    <!-- TOOLBAR -->
+    <dimen name="d_toolbar_height">55dp</dimen>
+    <dimen name="d_toolbar_icons_padding">10dp</dimen>
+    <dimen name="d_toolbar_padding">20dp</dimen>
+    <dimen name="d_toolbar_label_text_size">28sp</dimen>
+
+    <!-- MAIN ACTIVITY -->
+    <dimen name="d_main_labels_textsize">16sp</dimen>
+    <dimen name="d_main_labels_padding">10dp</dimen>
+
+    <!-- TAXI REQUEST & HOTEL REQUEST ACTIVITY -->
+    <dimen name="d_imagesize">150dp</dimen>
+    <dimen name="d_card_height">160dp</dimen>
+    <dimen name="d_card_margin">5dp</dimen>
+    <dimen name="d_name_size">16sp</dimen>
+    <dimen name="d_desc_size">12sp</dimen>
+    <dimen name="d_items_margin">15dp</dimen>
+    <dimen name="d_loading_place_holder_margins">15dp</dimen>
+    <!-- TAXI REQUEST & HOTEL PREVIEW -->
+    <dimen name="d_card_width">250dp</dimen>
+    <dimen name="d_button_text_size">14sp</dimen>
+    <dimen name="d_card_redius">10dp</dimen>
+
+
+</resources>

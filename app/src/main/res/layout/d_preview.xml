@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/d_card_width"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl">
+
+    <android.support.v7.widget.CardView
+        style="@style/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/d_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_card_width"
+                android:layout_alignParentTop="true" />
+
+            <com.entezaar.thelperdemo.ui.irsansTextView
+                android:id="@+id/d_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/d_title_color"
+                android:textSize="@dimen/d_name_size"
+                android:layout_marginTop="@dimen/d_items_margin"
+                android:layout_marginBottom="@dimen/d_items_margin"
+                android:layout_marginStart="25dp"
+                android:layout_below="@id/d_image"
+                app:FontType="bold"/>
+
+            <com.entezaar.thelperdemo.ui.irsansTextView
+                android:id="@+id/d_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d_name"
+                android:textColor="@color/d_desc_color"
+                android:textSize="@dimen/d_desc_size"
+                android:layout_marginStart="@dimen/d_items_margin"
+                android:layout_marginEnd="@dimen/d_items_margin"
+                app:FontType="light"
+                />
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d_desc"
+                android:textColor="@color/d_title_color"
+                android:textSize="@dimen/d_button_text_size"
+                android:text="@string/letsgo" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
